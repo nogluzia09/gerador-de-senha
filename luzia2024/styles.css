@@ -5,12 +5,24 @@
     --cor-de-fundo: #00162E;
     --fundo-senha:#00244D;
     --fundo-texto:#001EFF;
-    font-family: 'Roboto Mono', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    --roboto: 'Roboto Mono', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
 }
 
 body{
     color: var(--branco)
     background-color: var(--cor-de-fundo)
+    font-family: var(--roboto);
+
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+
+}
+
+.titulo-secundario{
+    font-size: 24px;
 
 }
